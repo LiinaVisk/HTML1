@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogi Postitused</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-image: url('img/kevad1.jpg'); /* Taustapilt täis mõõtmes */
+            background-size: 100% 100%; /* Muudetud taustapildi suurus */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            width: 100%;
+            background-color: #FFF;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            width: 33.33%;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: auto;
+            border-top: 1px solid #000;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blogi Postitused</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Tagasi avalehele</a></li> <!-- Lisatud link tagasi avalehele -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Minu Blogi Postitused</h2>
+            <div>
+                <ul>
+                    <li><a class="post-link" href="post1.html">Kevad - 1. aprill 2023, 10:00</a></li>
+                    <li><a class="post-link" href="post2.html">Suvi - 1. juuni 2023, 15:00</a></li>
+                    <li><a class="post-link" href="post3.html">Sügis - 1. september 2023, 18:00</a></li>
+                    <li><a class="post-link" href="post4.html">Talv - 1. detsember 2023, 20:00</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minu Veebileht. Kõik õigused reserveeritud.</p>
+    </footer>
+</body>
+</html>

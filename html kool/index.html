@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaleht</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-image: url('img/taust2.jpg'); /* Muudetud taustapilti asukoht */
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.7); /* Muudetud päise ja jaluse taustavärvi läbipaistvus */
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box; /* Lisatud */
+            border-radius: 10px; /* Lisatud */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            width: 33.33%;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: auto;
+            border-top: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avaleht</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Avaleht</a></li>
+                <li><a href="post.html">Blogi</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Tutvustus</h2>
+            <p>Olen suur looduse ja ilma huviline ning rõõmuga jagan siin oma kirge ja avastusi looduse imelise maailma kohta. Minu eesmärk on luua siia koht, kus saate avastada uusi aspekte meie maailmast, põnevaid loodusnähtusi ning süveneda erinevatesse teemadesse, mis seonduvad loodusega.</p>
+            <details>
+                <summary>Lisainfo</summary>
+                <p>Meie kaunis loodus on täis saladusi, mida avastada. Iga aastaajal on oma võlu ja imelised omadused, mis kutsuvad meid seiklema ja avastama. Olgu see kevadine õiteilu, suvine päikesepaiste, sügisesed värvid või talvine lumekristallide sära - igal aastaajal on midagi erilist.</p>
+                <p>Lisaks looduse ilule soovin jagada ka veidi uskumusi ja mõtteid selle kohta, kuidas erinevad aastaajad on mõjutanud inimeste elu sajandite jooksul. Meie esivanemad austasid loodust ja aastaajalisi tsükleid ning leidsid nendes sügava tähenduse ja tarkuse. Usutakse, et igal aastaajal on oma eriline energia ja mõju meie elule ning teadlikkus sellest võib aidata meil paremini ühenduses olla looduse ja oma sisemise maailmaga.</p>
+                <p>Seega, olge valmis avastama uusi teadmisi, sukelduma looduse salapärasesse maailma ning leidma inspiratsiooni looduses seiklemiseks ja uutele avastustele!</p>
+                <p>Loodan, et leiate siit blogist midagi, mis inspireerib teid ja paneb...</p>
+            </details>
+        </article>
+        <aside>
+            <h2>Meist</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo auctor felis, sed vehicula purus congue eget. Vestibulum condimentum magna sit amet est pulvinar congue. Nullam nec ex id est fermentum hendrerit. Donec vestibulum interdum enim, eget vestibulum est fermentum non. Sed in ex eu orci congue mattis et vel arcu. Fusce vestibulum pharetra lorem sit amet congue. Cras accumsan tellus vel arcu convallis luctus. Curabitur auctor elit eu lorem ultrices sollicitudin. In volutpat nec odio vitae mollis.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minu Veebileht. Kõik õigused reserveeritud.</p>
+    </footer>
+</body>
+</html>

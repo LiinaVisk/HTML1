@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktid - Minu Blogi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-image: url('img/talv1.jpg'); /* Taustapilt asub img kaustas */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            width: 33.33%;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kontaktid - Minu Blogi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="post.html">Blogi</a></li>
+                <li><a href="#">Kontakt</a></li> <!-- Hetkel asendatud tühja href'iga -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Kontaktid</h2>
+            <p>Email: <a href="mailto:juku-juss@gmail.com">juku-juss@gmail.com</a></p>
+            <p>Telefon: +372 51 23 230</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minu Veebileht. Kõik õigused reserveeritud.</p>
+    </footer>
+</body>
+</html>

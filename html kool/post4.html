@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talv - Minu Blogi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('img/aeg4.jpg'); /* Uus taustapilt */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white; /* Teksti värv valgeks */
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5); /* Päis läbipaistev must värv */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            margin: 0 5cm; /* Joondus 5 cm äärest */
+        }
+        section {
+            background-color: rgba(0, 0, 0, 0.5); /* Sektsiooni taust värvitud mustaks, läbipaistvus 50% */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        section p {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Talv</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="post.html">Tagasi</a></li> <!-- Tagasi-link, mis viib tagasi postituste lehele -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Talv - 1. jaanuar 2023, 10:00</h2>
+            <article>
+                <h3>Talv ja selle ilmingud</h3>
+                <p>Talv on üks neljast aastaajast, mille iseloomulikud tunnused on külm ilm, lume ja jää esinemine ning lühike päevavalguse aeg. Talve ajal muutuvad maastikud valgeks lumikattega ning temperatuurid võivad langeda külmakraadideni.</p>
+                <details>
+                    <summary>Lisainfo talve kohta</summary>
+                    <p>Talv toob kaasa mitmeid ilminguid, sealhulgas:</p>
+                    <ul>
+                        <li>Lume sadu</li>
+                        <li>Külmakraadid</li>
+                        <li>Jäätekked veekogudel</li>
+                        <li>Lühike päevavalguse aeg</li>
+                        <li>Talvised tegevused nagu suusatamine ja uisutamine</li>
+                    </ul>
+                </details>
+            </article>
+            <aside>
+                <h3>Talvised tegevused</h3>
+                <p>Talvel on mitmeid populaarseid tegevusi, sealhulgas:</p>
+                <ul>
+                    <li>Suusatamine</li>
+                    <li>Uisutamine</li>
+                    <li>Kelgutamine</li>
+                    <li>Lumememmede ehitamine</li>
+                    <li>Talvised matkad</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Minu Blogi. Kõik õigused reserveeritud.</p>
+    </footer>
+</body>
+</html>
